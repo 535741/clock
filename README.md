@@ -1,2 +1,2 @@
 # clock
-Simple digital clock program in ncurses. Displays ascii art block letters.
+Simple digital clock program in ncurses. Displays ascii art block numbers.
