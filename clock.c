@@ -156,12 +156,12 @@ int main(void){
         int hour = (*timeinfo).tm_hour % 10;
         int hour2 = (*timeinfo).tm_hour / 10;
         getmaxyx(stdscr, row, col); 
-        numeral((row / 2) -4, (col / 2) + 21, sec);
-        numeral((row / 2) - 4,(col / 2) + 12, sec2);
-        numeral((row / 2) - 4,(col / 2 ), min);
-        numeral((row / 2) - 4,(col / 2) - 9, min2);
-        numeral((row / 2) - 4,(col / 2) - 21, hour);
-        numeral((row / 2) - 4,(col / 2) - 30, hour2);
+        numeral((row / 2) - 4, (col / 2) + 21, sec);
+        numeral((row / 2) - 4, (col / 2) + 12, sec2);
+        numeral((row / 2) - 4, (col / 2 ), min);
+        numeral((row / 2) - 4, (col / 2) - 9, min2);
+        numeral((row / 2) - 4, (col / 2) - 21, hour);
+        numeral((row / 2) - 4, (col / 2) - 30, hour2);
         move(0, 0);
         refresh();
         sleep(1);
