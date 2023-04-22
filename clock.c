@@ -359,7 +359,7 @@ int main(void){
         int mday = (*timeinfo).tm_mday % 10;
         int mday2 = (*timeinfo).tm_mday / 10; 
         getmaxyx(stdscr, row, col); 
-        numeral((row / 2) -4, (col / 2) + 21, sec);
+        numeral((row / 2) - 4, (col / 2) + 21, sec);
         numeral((row / 2) - 4, (col / 2) + 12, sec2);
         numeral((row / 2) - 4, (col / 2 ), min);
         numeral((row / 2) - 4, (col / 2) - 9, min2);
