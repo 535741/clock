@@ -366,9 +366,9 @@ int main(void){
         numeral((row / 2) - 4, (col / 2) - 21, hour);
         numeral((row / 2) - 4, (col / 2) - 30, hour2);
         weekday((row / 2) + 3, (col / 2) - 24, wday);
-        dnumeral((row / 2) + 3, (col / 2) - 4, mday);
-        dnumeral((row / 2) + 3, (col / 2) - 8, mday2);  
-        month((row / 2) + 3, (col / 2) + 3, mon);
+        dnumeral((row / 2) + 3, (col / 2), mday);
+        dnumeral((row / 2) + 3, (col / 2) - 4, mday2);  
+        month((row / 2) + 3, (col / 2) + 6, mon);
         move(0, 0);
         refresh();
         sleep(1);
